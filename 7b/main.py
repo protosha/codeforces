@@ -125,7 +125,7 @@ class MemoryManagerConsole:
         return None
 
 
-# read expected number of commands (t) and memory capacity in bytes (m)
+# read number of command to be executed (t) and memory capacity in bytes (m)
 command_count, capacity = map(int, stdin.readline().rstrip().split())
 memory_manager = MemoryManager(capacity)
 manager_console = MemoryManagerConsole(memory_manager)
